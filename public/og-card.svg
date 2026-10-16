@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F4F7FC"/>
+  <path d="M0 0h22v630H0z" fill="#2563EB"/>
+  <circle cx="1010" cy="318" r="190" fill="none" stroke="#DCE5F2" stroke-width="2"/>
+  <circle cx="1010" cy="318" r="132" fill="none" stroke="#B9CDEA" stroke-dasharray="5 10" stroke-width="2"/>
+  <circle cx="1010" cy="318" r="78" fill="#102A56"/>
+  <text x="1010" y="311" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="17" letter-spacing="4" text-anchor="middle">USEFUL</text>
+  <text x="1010" y="339" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="17" letter-spacing="4" text-anchor="middle">CONTEXT</text>
+  <rect x="95" y="92" width="48" height="48" rx="24" fill="#102A56"/>
+  <text x="119" y="123" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">JA</text>
+  <text x="95" y="224" fill="#64748B" font-family="Arial, sans-serif" font-size="15" letter-spacing="4">SOFTWARE ENGINEER</text>
+  <text x="95" y="315" fill="#172033" font-family="Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-4">Joshua Tobi Ajagbe</text>
+  <text x="95" y="383" fill="#172033" font-family="Arial, sans-serif" font-size="42" font-weight="600">Backend systems, tools &amp; AI products.</text>
+  <path d="M95 462h640" stroke="#DCE5F2" stroke-width="2"/>
+  <text x="95" y="505" fill="#64748B" font-family="Arial, sans-serif" font-size="15" letter-spacing="3">BUILDING SOFTWARE THAT MAKES SENSE</text>
+</svg>
