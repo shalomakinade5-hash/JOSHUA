@@ -15,6 +15,102 @@ export const navigation = [
   { label: "Writing", href: "#writing" },
 ];
 
+export const experience = [
+  {
+    title: "AI Engineer",
+    company: "BreezeLearn",
+    dates: "Apr 2026 – Present",
+    type: "Full-time",
+    location: "Canada",
+  },
+  {
+    title: "Backend Engineer",
+    company: "BreezeLearn",
+    dates: "Nov 2025 – Mar 2026",
+    type: "Full-time",
+    location: "Remote",
+  },
+  {
+    title: "Chief Technology Officer",
+    company: "Awarome",
+    dates: "Jan 2024 – Present",
+    type: "Contract",
+    location: "Abuja, Nigeria · Remote",
+  },
+  {
+    title: "Software Engineer",
+    company: "MBL Hightech",
+    dates: "May 2024 – Jun 2026",
+    location: "Cyprus",
+    highlights: [
+      "Built a high-scale backend enterprise chat application for the Cyprus and Turkish CRM market.",
+      "Designed the infrastructure for the chat application and created a monorepo for its apps and packages, with usage documentation.",
+    ],
+  },
+  {
+    title: "Backend Engineering Lead",
+    company: "ThriveAgric",
+    dates: "May 2025 – Dec 2025",
+  },
+  {
+    title: "Backend Software Engineer",
+    company: "ThriveAgric",
+    dates: "Aug 2022 – May 2025",
+    location: "Nigeria · Hybrid",
+    highlights: [
+      "Developed backend infrastructure for an inventory management system used across agricultural warehouses in Nigeria.",
+      "Developed backend infrastructure and APIs for Tradr, an agricultural marketplace.",
+      "Helped build and maintain the backend for AOS, an agricultural operating system used to manage farmers across Nigeria and other African countries.",
+      "Trained backend engineering interns in the Tech Accelerator Program.",
+    ],
+  },
+  {
+    title: "Backend Software Engineer",
+    company: "Equally AI",
+    dates: "Jul 2023 – Dec 2023",
+    type: "Contract",
+    location: "Tel Aviv District, Israel · Remote",
+    highlights: [
+      "Helped launch a no-code accessibility solution by building features and maintaining in-house microservices.",
+    ],
+  },
+  {
+    title: "Backend Software Engineer",
+    company: "RapidMedicare",
+    dates: "Jun 2022 – Aug 2023",
+    type: "Contract",
+    location: "Remote",
+  },
+  {
+    title: "Software Engineer",
+    company: "Glodaris Technologies LTD",
+    dates: "Jan 2022 – Jun 2023",
+    type: "Contract",
+    location: "Abuja, Nigeria",
+  },
+  {
+    title: "Full Stack Software Engineer",
+    company: "Instant Deposit Ltd.",
+    dates: "Dec 2021 – Jun 2022",
+    type: "Full-time",
+    location: "Nigeria",
+  },
+  {
+    title: "Intern",
+    company: "Plateau State ICT Development Agency",
+    dates: "Oct 2021 – Feb 2022",
+    type: "Internship",
+    location: "Jos, Plateau State, Nigeria",
+  },
+  {
+    title: "Full Stack Software Engineer Intern",
+    company: "Instant Deposit Ltd.",
+    dates: "Aug 2021 – Nov 2021",
+    type: "Internship",
+    location: "Jos, Plateau State, Nigeria",
+  },
+];
+
 export const projects = [
   {
     number: "01",

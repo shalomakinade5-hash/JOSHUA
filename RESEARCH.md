@@ -1,13 +1,13 @@
 # Research report: Joshua Tobi Ajagbe
 
 **Research date:** 16 October 2026  
-**Scope:** Public GitHub material and the profile/source URLs provided in the brief. LinkedIn and Medium page content were not accessible to the research tools during this review.
+**Scope:** Public GitHub material, the profile/source URLs provided in the brief, and Joshua’s LinkedIn profile accessed in the shared signed-in browser. Medium page content was not accessible to the research tools during this review.
 
 ## Executive summary
 
 The accessible GitHub profile identifies Joshua Tobi Ajagbe and describes him as a **Software Engineer**. The profile and repositories support a cautious portfolio focus on backend systems, developer tools, and document-grounded AI workflows. The clearest current project evidence is the public `askhr` repository. Other substantive examples include the Express Code Generator and the DSA Ninja package monorepo.
 
-The employment, education, certification, teaching, and startup claims named as research leads in the brief could not be independently verified. They are not presented as established facts on the site. No employers, job titles, dates, impact metrics, or professional seniority are inferred from repository ownership.
+The LinkedIn profile lists employment and contract roles, including current positions at BreezeLearn and Awarome. Those profile-provided titles, employers, dates, and descriptions are represented as claims from the profile, not independently audited work history. No impact metrics or responsibilities beyond the profile's own descriptions are inferred. Education and certification details still require confirmation.
 
 The `pulsegraph` repository is a fork of `ueabu/PulseGraph`; it is not presented as Joshua's original work. The public SafePay repositories do not corroborate the brief's React/Flask description: the backend repository is a minimal Django project with SQLite and no payment model or payment-processing implementation visible in the inspected files. It is not described as a production payment platform.
 
@@ -18,22 +18,33 @@ The `pulsegraph` repository is a fork of `ueabu/PulseGraph`; it is not presented
 | Public GitHub account is `Joepolymath`, with display name Joshua Tobi Ajagbe. | **VERIFIED** | [GitHub profile API](https://api.github.com/users/Joepolymath) returns that account and display name. |
 | The profile's current short bio describes a “Software Engineer” and lists Go, Node.js, TypeScript, Python, and AI. | **VERIFIED as a self-description** | Same API response. This is a profile claim, not independent proof of proficiency. |
 | A profile README describes backend engineering and lists Go, TypeScript, Python, and Rust among the languages Joshua writes. | **VERIFIED as a self-description; recency uncertain** | [Profile README](https://github.com/Joepolymath/Joepolymath/blob/main/README.md). It also contains older claims, so it is not treated as a current employment or skill record. |
-| Current employer, current role beyond the general profile title, or career dates. | **UNCONFIRMED** | [LinkedIn profile](https://ng.linkedin.com/in/joshua-ajagbe) returned HTTP 999. No public CV or employer source was retrieved. |
+| LinkedIn-listed current roles and employment dates. | **VERIFIED as profile statements** | The signed-in [LinkedIn profile](https://ng.linkedin.com/in/joshua-ajagbe/details/experience/) lists AI Engineer at BreezeLearn (Apr 2026–Present) and Chief Technology Officer at Awarome (Jan 2024–Present), among other roles below. These are self-reported profile claims, not independently confirmed employment. |
 | Public GitHub profile lists Abuja, Nigeria. | **VERIFIED as profile metadata** | [GitHub profile API](https://api.github.com/users/Joepolymath). The website does not need to publish this location. |
 | Public email address. | **VERIFIED** | Profile README and public package manifests list `joshuaajagbe96@gmail.com`. The site uses it only as a contact method. |
-| LinkedIn profile URL. | **VERIFIED as a provided/profile-linked URL; page contents inaccessible** | [LinkedIn profile](https://ng.linkedin.com/in/joshua-ajagbe). |
+| LinkedIn profile URL and experience section. | **VERIFIED as profile contents** | [LinkedIn profile](https://ng.linkedin.com/in/joshua-ajagbe/details/experience/), accessed via the shared signed-in browser on 16 October 2026. |
 
 ## Work experience timeline
 
-No paid employment, contract, or internship entry could be verified from an accessible source. Therefore, **no employment timeline is published**. The website explains this omission and links to the profile so Joshua can confirm the entries before they are added.
+The following titles, organizations, dates, types, locations, and role descriptions were transcribed or paraphrased from the LinkedIn experience section. These are profile claims and have not been independently verified with employers. The portfolio displays the supplied timeline and attributes it to LinkedIn.
 
-| Category | Finding |
-|---|---|
-| Paid employment | **UNCONFIRMED** — titles, employers, dates, locations, responsibilities, outcomes, and current status could not be checked. |
-| Contract work | **UNCONFIRMED** — no accessible source found. |
-| Internships | **UNCONFIRMED** — no accessible source found. |
-| Startup roles / co-founding | **UNCONFIRMED** — AOS and Awarome remain leads from the supplied brief only. |
-| Teaching / volunteering | **UNCONFIRMED** — the profile README says Joshua is willing to help beginners, but this does not verify a teaching role or organization. |
+| Role | Organization | Dates and type/location shown on LinkedIn |
+|---|---|---|
+| AI Engineer | BreezeLearn | Apr 2026–Present; Full-time; Canada |
+| Backend Engineer | BreezeLearn | Nov 2025–Mar 2026; Full-time; Remote |
+| Chief Technology Officer | Awarome | Jan 2024–Present; Contract; Abuja, Nigeria · Remote |
+| Software Engineer | MBL Hightech | May 2024–Jun 2026; Cyprus |
+| Backend Engineering Lead | ThriveAgric | May 2025–Dec 2025 |
+| Backend Software Engineer | ThriveAgric | Aug 2022–May 2025; Nigeria · Hybrid |
+| Backend Software Engineer | Equally AI | Jul 2023–Dec 2023; Contract; Tel Aviv District, Israel · Remote |
+| Backend Software Engineer | RapidMedicare | Jun 2022–Aug 2023; Contract; Remote |
+| Software Engineer | Glodaris Technologies LTD | Jan 2022–Jun 2023; Contract; Abuja, Nigeria |
+| Full Stack Software Engineer | Instant Deposit Ltd. | Dec 2021–Jun 2022; Full-time; Nigeria |
+| Intern | Plateau State ICT Development Agency | Oct 2021–Feb 2022; Internship; Jos, Plateau State, Nigeria |
+| Full Stack Software Engineer Intern | Instant Deposit Ltd. | Aug 2021–Nov 2021; Internship; Jos, Plateau State, Nigeria |
+
+The profile describes backend work at MBL Hightech on an enterprise chat application, its infrastructure, and a monorepo setup. For ThriveAgric it describes backend work on an inventory management system, Tradr, and AOS, plus training backend interns. For Equally AI it describes feature development and microservice maintenance for a no-code accessibility solution. No detailed descriptions were shown for the other roles.
+
+The LinkedIn profile’s About section separately claims collaboration on a facial-recognition product for the Nigeria Immigration Service, training over 100 software engineers in a Code Plateau 3.0 cohort with Plateau State ICT Development Agency, and founding the peer.js JavaScript community. These claims are not added as employment entries because that section does not provide job titles or dates for them.
 
 ## Project inventory
 
@@ -78,8 +89,8 @@ No paid employment, contract, or internship entry could be verified from an acce
 | [pulsegraph](https://github.com/Joepolymath/pulsegraph) | GitHub API explicitly reports a fork; its parent is [`ueabu/PulseGraph`](https://github.com/ueabu/PulseGraph). | Excluded as Joshua's original project. |
 | [baseNodeServer](https://github.com/Joepolymath/baseNodeServer) | Original Node.js/Express starter described in its README; the Express Code Generator CLI clones this repository. | Mentioned as the scaffold source, not represented as a separate featured case study. |
 | [askhr](https://github.com/Joepolymath/askhr) | Original repository, detailed architecture README, FastAPI/backend and React/frontend structure, tests and local setup documented. Retrieval source and tests were also inspected. | Featured, with a qualification about contribution scope and prototype status. |
-| [AOS](https://www.github.com/Joepolymath) | No matching public repository was found in the inspected account repository search. LinkedIn lead could not be checked. | Not included; purpose, role, stack, users, and status are **UNCONFIRMED**. |
-| Awarome | Public repository search surfaced an `Awarome-Limited/awarome-admin` repository, but no reliable link to Joshua was established. | Not included; Joshua's role, product, stack, and status are **UNCONFIRMED**. |
+| [AOS](https://www.github.com/Joepolymath) | No matching public repository was found in the inspected account repository search. LinkedIn describes AOS as an agricultural operating system for managing farmers and lists Joshua's backend contribution under ThriveAgric. | Not included; product details and implementation scope beyond the LinkedIn description remain unverified. |
+| Awarome | Public repository search surfaced an `Awarome-Limited/awarome-admin` repository, but no reliable link between that repository and Joshua was established. LinkedIn lists Joshua as CTO from Jan 2024. | Not included; product, stack, status, and specific contribution are unconfirmed. |
 
 ## GitHub repository analysis
 
@@ -109,11 +120,11 @@ The GitHub profile bio/README mentions Go, Node.js, TypeScript, Python, Rust, AI
 
 ## Education and certifications
 
-**UNCONFIRMED.** The supplied brief names Federal University of Technology, Minna, 2013–2018, a second-class upper result, and several training certificates. LinkedIn was inaccessible and no certificate or institutional page was retrieved. None of these claims is displayed on the site. Joshua should confirm institution, qualification, dates, result, credential names, and public links before publication.
+**PARTIALLY VERIFIED as a profile association.** LinkedIn's profile header associates Joshua with Federal University of Technology Minna. The degree, study dates, result, and certificates named in the supplied brief were not verified through an education entry, certificate, or institutional source. None of these claims is displayed on the site. Joshua should confirm qualification, dates, result, credential names, and public links before publication.
 
 ## Volunteer work and community
 
-**UNCONFIRMED.** Code Plateau / nHub and Yenbyen Fellowship teaching are leads from the supplied brief. The inspected GitHub README expresses willingness to help beginners, but that statement does not verify a formal volunteer role, organization, dates, or curriculum. No role is displayed.
+LinkedIn's About section says Joshua worked with Plateau State ICT Development Agency to train over 100 software engineers in the Code Plateau 3.0 cohort and founded the peer.js JavaScript community. These are profile self-reports; formal role type, dates, and curriculum details are not specified. Yenbyen Fellowship teaching remains an unverified lead from the supplied brief. No separate volunteer role is displayed.
 
 ## Writing and public professional activity
 
@@ -126,17 +137,17 @@ The GitHub profile bio/README mentions Go, Node.js, TypeScript, Python, Rust, AI
 |---|---|
 | [GitHub user API](https://api.github.com/users/Joepolymath) | Accessible; identity and profile metadata verified as profile-provided facts. |
 | [GitHub profile README](https://github.com/Joepolymath/Joepolymath/blob/main/README.md) | Accessible via GitHub content API; self-description, social links, public email, and one Medium article link verified. |
-| [LinkedIn profile](https://ng.linkedin.com/in/joshua-ajagbe) | Inaccessible; returned HTTP 999. No hidden information was sought or bypassed. |
+| [LinkedIn experience section](https://ng.linkedin.com/in/joshua-ajagbe/details/experience/) | Accessible in the shared signed-in browser; profile-listed work history transcribed on 16 October 2026. |
 | Google web search pages | Returned only a generic “Google Search” page; no usable search results were obtained. |
 | [Medium article](https://medium.com/@joshuaajagbe96/choosing-between-embedded-documents-and-referenced-documents-in-mongodb-99bedfcdc76d) | Inaccessible to the fetch tool; returned HTTP 403. |
 | Public GitHub repositories | Repository trees, selected READMEs, manifests, source files, and commit history were available through GitHub APIs/content tools. |
 
 ## Unresolved questions for Joshua
 
-1. What are the exact current and previous employers, job titles, dates, locations, responsibilities, and outcomes that may be published?
-2. What was Joshua's specific role and contribution scope in AskHR, AOS, SafePay, and Awarome? Which are paid work, personal projects, co-founded products, or prototypes?
+1. Can the LinkedIn-listed employment dates, titles, employers, locations, and role descriptions be independently confirmed before treating them as audited work history?
+2. What was Joshua's exact contribution scope in AskHR, AOS, SafePay, and Awarome, and what can be corroborated for the Awarome role?
 3. For AOS, is there a public product page, repository, demo, or other source that confirms its real functionality and status?
-4. For Awarome, which public organization/repository/site belongs to the project, and what was Joshua's role?
+4. For Awarome, which public organization/repository/site belongs to the project, and what product work did Joshua perform as the profile-listed CTO?
 5. Can the SafePay LinkedIn stack discrepancy (React/Flask versus the public Django/static Bootstrap repositories) be resolved? Was another repository or implementation involved?
 6. What education, qualification, dates, result, and certificates should be included, and which credentials have public verification links?
 7. What were the dates, organizations, volunteer status, and responsibilities for Code Plateau / nHub and Yenbyen Fellowship?

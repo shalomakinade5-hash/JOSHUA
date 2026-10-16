@@ -199,8 +199,7 @@ button {
 .article-card__label,
 .article-card__source,
 .contact__top,
-.site-footer,
-.experience-note__marker {
+.site-footer {
   font-family: var(--mono);
   font-size: 10px;
   font-weight: 500;
@@ -536,22 +535,30 @@ button {
   margin-top: 16px;
 }
 
-.experience-note {
-  display: grid;
-  grid-template-columns: 40px minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 24px;
-  padding: 29px 0;
+.experience-list {
+  margin: 0;
+  padding: 0;
   border-top: 1px solid var(--line);
+  list-style: none;
+}
+
+.experience-card {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.32fr) minmax(0, 1fr);
+  gap: 30px;
+  padding: 25px 0;
   border-bottom: 1px solid var(--line);
 }
 
-.experience-note__marker {
-  color: var(--blue);
-  font-size: 20px;
+.experience-card__dates {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1.7;
 }
 
-.experience-note h3 {
+.experience-card h3 {
   margin: 0;
   font-size: 17px;
   font-family: var(--heading-font);
@@ -559,12 +566,34 @@ button {
   letter-spacing: -0.03em;
 }
 
-.experience-note p {
-  max-width: 680px;
-  margin: 9px 0 0;
+.experience-card__meta {
+  margin: 7px 0 0;
   color: var(--muted);
   font-size: 13px;
-  line-height: 1.75;
+  line-height: 1.6;
+}
+
+.experience-card__highlights {
+  display: grid;
+  gap: 7px;
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.experience-source {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 20px;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
 }
 
 .text-link {
@@ -1329,14 +1358,16 @@ button {
     font-size: 26px;
   }
 
-  .experience-note {
-    grid-template-columns: 27px minmax(0, 1fr);
-    gap: 12px;
+  .experience-card {
+    grid-template-columns: 1fr;
+    gap: 9px;
+    padding: 22px 0;
   }
 
-  .experience-note .text-link {
-    grid-column: 2;
-    margin-top: 4px;
+  .experience-source {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
   }
 
   .project-card,

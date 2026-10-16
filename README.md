@@ -1,6 +1,6 @@
 # Joshua Ajagbe — Portfolio
 
-A responsive personal portfolio for Joshua Tobi Ajagbe. Its content is intentionally based on public, project-level evidence, and avoids unverified employment, education, and impact claims.
+A responsive personal portfolio for Joshua Tobi Ajagbe. Project details are grounded in public repository evidence, and the work-history section reflects roles and dates listed on Joshua’s LinkedIn profile without adding unsupported outcomes.
 
 ## Built with
 

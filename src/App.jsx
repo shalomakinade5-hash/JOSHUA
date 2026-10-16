@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {
   article,
+  experience,
   navigation,
   profile,
   projects,
@@ -28,7 +29,7 @@ function gmailComposeUrl(email) {
   return `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
 }
 
-function SectionHeading({ index, eyebrow, title, children }) {
+function SectionHeading({ index, eyebrow, title, headingId, children }) {
   return (
     <div className="section-heading">
       <div className="section-heading__meta">
@@ -36,7 +37,7 @@ function SectionHeading({ index, eyebrow, title, children }) {
         <span className="eyebrow">{eyebrow}</span>
       </div>
       <div>
-        <h2>{title}</h2>
+        <h2 id={headingId}>{title}</h2>
         {children && <p className="section-intro">{children}</p>}
       </div>
     </div>
@@ -334,23 +335,38 @@ function App() {
           <SectionHeading
             index="02"
             eyebrow="CAREER TIMELINE"
-            title="Details, not guesses."
+            title="Building across backend and AI."
+            headingId="experience-title"
           >
-            Only verified roles belong here.
+            Roles and dates listed on Joshua’s LinkedIn profile.
           </SectionHeading>
-          <div className="experience-note">
-            <span className="experience-note__marker" aria-hidden="true">
-              —
-            </span>
-            <div>
-              <h3 id="experience-title">Work history is being confirmed</h3>
-              <p>
-                The public profile’s employment details could not be accessed
-                during research. Employer names, titles, and dates are left out
-                rather than inferred from projects. The public work below is a
-                more reliable view of the engineering practice available today.
-              </p>
-            </div>
+          <ol className="experience-list" aria-labelledby="experience-title">
+            {experience.map((role) => (
+              <li
+                className="experience-card"
+                key={`${role.company}-${role.title}-${role.dates}`}
+              >
+                <p className="experience-card__dates">{role.dates}</p>
+                <div>
+                  <h3>{role.title}</h3>
+                  <p className="experience-card__meta">
+                    {role.company}
+                    {role.type && ` · ${role.type}`}
+                    {role.location && ` · ${role.location}`}
+                  </p>
+                  {role.highlights && (
+                    <ul className="experience-card__highlights">
+                      {role.highlights.map((highlight) => (
+                        <li key={highlight}>{highlight}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ol>
+          <div className="experience-source">
+            <span>Source: LinkedIn profile</span>
             <a
               className="text-link"
               href={profile.linkedin}
